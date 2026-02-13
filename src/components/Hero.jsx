@@ -37,7 +37,7 @@ const Hero = ({ isLanding, onClick }) => {
             /> */}
             <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', width: '100%' }}>
                 <h1
-                    className="Code{X}"
+                    className="CodeX"
                     style={{
                         opacity: isLanding ? 0 : 1,
                         maxHeight: isLanding ? '0' : '300px', // Approximate height for 10rem text + margins
